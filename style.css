@@ -1,0 +1,20 @@
+* {
+    margin: 0%;
+    padding: 0%;
+
+}
+.container{
+    background-image: url('backGround/undefined - Imgur.gif');
+    background-size: cover;
+    /* background-position: bottom; */
+    /* width: 100%; */
+    height: 100vh;
+    background-position: bottom;
+}
+
+
+.character {
+    position: absolute;
+    height: 400px;
+    bottom: 0;
+}
