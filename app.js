@@ -7,7 +7,7 @@ function characterMovement(takeOrder) {
         speed += 5;
         modal1.style.left = speed + 'px';
         if (!flag) {
-            // modal1.src = 'backGround/characters/kokonoe-blazblue.gif';
+            modal1.src = 'backGround/characters/a.gif';
         } flag = true;
     } else if (takeOrder === 'left') {
         speed -= 5;
@@ -16,14 +16,14 @@ function characterMovement(takeOrder) {
             modal1.src = 'backGround/characters/aaa.gif';
         } flag = false;
     }
-    // else if (takeOrder === 'down') {
-    //     console.log('Moving character down');
-    // } else if (takeOrder === 'left') {
-    //     console.log('Moving character left');
-    // } else if (takeOrder === 'up') {
-    //     console.log('Moving character right');
-    // } else {
-    // }
+    else if (takeOrder === 'down') {
+        console.log('Moving character down');
+    } else if (takeOrder === 'left') {
+        console.log('Moving character left');
+    } else if (takeOrder === 'up') {
+        console.log('Moving character right');
+    } else {
+    }
 }
 
 
@@ -36,9 +36,9 @@ function moveCharacter(event) {
     // else if (event.key === 'ArrowDown') {
     //     characterMovement('down');
     // }
-     else if (event.key === 'ArrowLeft') {
+    else if (event.key === 'ArrowLeft') {
         characterMovement('left');
-    } 
+    }
     // else if (event.key === 'ArrowUp') {
     //     characterMovement('up');
 
